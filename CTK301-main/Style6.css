@@ -1,0 +1,106 @@
+#wrapper {
+  margin: 1em auto;
+  width: 850px;
+  border: 6px solid black;
+  background-color: #ffffff;
+  padding:0.7em;
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+.floatimage {
+  float: left;
+  Width: 350px;
+  margin: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 4px solid black;
+}
+
+.p1{
+  font-weight: bolder;
+}
+
+header{
+  grid-column: span 12;
+}
+
+nav li{
+  grid-column: span 3;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 10px;
+  width: 150px;
+  background-color: red;
+  color: white;
+}
+
+nav li a{
+color: white;
+display: block;
+padding: 10px;
+text-decoration: none;
+
+}
+
+nav li a:hover{
+  background-color: #660000;
+}
+
+
+
+main{
+  grid-column: span 9;
+}
+
+footer{
+  grid-column: span 12;
+  border: 5px solid black;
+  background-color: red;
+  color: white;
+}
+
+body {
+background-image: url(a62.png);
+background-repeat:
+}
+
+.customtext{
+  font-family: sans-serif, Helvetica, sans-serif;
+  font-style: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.monkeyman{
+  font-family: Helvetica;
+  font-style: helvetica;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  border-color: black;
+  border: 10px solid black;
+}
+
+.move{
+  border-bottom: 7px solid black;
+  margin-bottom: inherit;
+
+}
+
+.p2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.p2 a{
+  color: red;
+}
+
+.p2 a:hover{
+color: blue;
+}

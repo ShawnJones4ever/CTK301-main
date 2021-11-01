@@ -1,0 +1,39 @@
+.customtext {
+font-family: Arial, Helvetica, sans-serif;
+font-style: sans-serif;
+}
+
+.textcenter {
+text-align: center;
+}
+
+h1 {
+  background-color: #FFA500;
+}
+h2 {
+    background-color: #FFA500;
+}
+h3 {
+  background-color: #FFA500;
+}
+h4 {
+  background-color: #FFA500;
+}
+h5 {
+  background-color: #FFA500;
+}
+h6{
+  background-color: #FFA500;
+}
+
+.pizza {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+}
+
+.imgbox {
+  border: 5px solid #000000;
+ padding: 10PX;
+ background-color: #FFFFFF;
+ margin: 20px;
+}
